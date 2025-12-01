@@ -14,7 +14,6 @@ export default async function CarPage({ params }: Props) {
 
   return (
     <div className={css.container}>
-      {/* ========== LEFT COLUMN ========== */}
       <div className={css.container_left}>
         <Image
           src={car.img}
@@ -26,9 +25,7 @@ export default async function CarPage({ params }: Props) {
         <CarRentForm />
       </div>
 
-      {/* ========== RIGHT COLUMN ========== */}
       <div className={css.container_right}>
-        {/* ===== TITLE BLOCK ===== */}
         <p
           className={css.car_title}
         >{`${car.brand} ${car.model}, ${car.year}`}</p>
@@ -46,7 +43,6 @@ export default async function CarPage({ params }: Props) {
 
         <p className={css.car_description}>{car.description}</p>
 
-        {/* ===== RENTAL CONDITIONS ===== */}
         <div className={css.right_block}>
           <h3 className={css.block_title}>Rental Conditions:</h3>
           <ul className={css.block_list}>
@@ -61,7 +57,6 @@ export default async function CarPage({ params }: Props) {
           </ul>
         </div>
 
-        {/* ===== CAR SPECIFICATIONS ===== */}
         <div className={css.right_block}>
           <h3 className={css.block_title}>Car Specifications:</h3>
           <ul className={css.block_list}>
@@ -92,7 +87,6 @@ export default async function CarPage({ params }: Props) {
           </ul>
         </div>
 
-        {/* ===== ACCESSORIES ===== */}
         <div className={css.right_block}>
           <h3 className={css.block_title}>Accessories and functionalities:</h3>
           <ul className={css.block_list}>

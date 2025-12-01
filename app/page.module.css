@@ -11,8 +11,8 @@
   );
 
   display: flex;
-  justify-content: center; /* по горизонтали */
-  /* по ВЕРТИКАЛИ — вот это важно */
+  justify-content: center;
+
   text-align: center;
 }
 
