@@ -5,7 +5,6 @@ import { useCarStore } from "../../lib/store/carStore";
 import CarsFilter from "../CarsFilter/CarsFilter";
 import CarsList from "../CarsList/CarsList";
 import type { Car } from "@/app/lib/api";
-import css from "./CatalogWrapper.module.css";
 
 interface CatalogViewProps {
   initialCars: Car[];

@@ -4,6 +4,9 @@
   align-items: center;
   padding: 26px 120px;
   background-color: #f2f4f7;
+
+  max-width: 1440px;
+  margin: 0px auto;
 }
 
 .header_list {
