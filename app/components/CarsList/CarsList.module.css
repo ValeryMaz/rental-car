@@ -18,8 +18,35 @@
   width: calc((100% - 32px * 3) / 4);
 }
 
-.span_model {
-  color: #3470ff;
+.image_wrap {
+  position: relative;
+  width: 276px;
+  height: 268px;
+}
+
+.image {
+  border-radius: 12px;
+  display: block;
+}
+
+.icon_button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: none;
+  background: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.icon_button svg {
+  display: block;
+  transition: all 0.3s ease;
 }
 
 .name_car_container {
@@ -61,7 +88,6 @@
   padding: 12px 97px;
   display: inline-block;
   align-items: center;
-
   height: 44px;
   max-width: 276px;
   transition: background-color 0.3s ease;
@@ -84,6 +110,7 @@
   letter-spacing: 0;
   display: block;
   transition: border 0.3s ease;
+  cursor: pointer;
 }
 
 .load_more:hover {
