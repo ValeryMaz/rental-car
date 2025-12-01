@@ -1,5 +1,6 @@
 .image_block {
   max-width: 1440px;
+  margin: 0 auto;
   height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
