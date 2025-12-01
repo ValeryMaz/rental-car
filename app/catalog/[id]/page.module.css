@@ -1,0 +1,89 @@
+.container {
+  padding-left: 120px;
+  padding-right: 120px;
+  max-width: 1440px;
+  margin: 0px auto;
+  padding-bottom: 124px;
+  display: flex;
+}
+
+.container_left {
+  padding-top: 84px;
+  margin-right: 72px;
+}
+
+.container_right {
+  padding-top: 104px;
+}
+
+.car_title {
+  font-family: Manrope, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+  color: #101828;
+  margin-bottom: 12px;
+}
+
+.car_address {
+  font-family: Manrope, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #101828;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.car_price {
+  font-family: Manrope, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+  color: #3470ff; /* цена синяя */
+  margin-bottom: 32px;
+}
+
+.car_description {
+  font-family: Manrope, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #555;
+  margin-bottom: 68px; /* ОТСТУП до следующего блока */
+}
+
+/* ===== СЕКЦИИ ПРАВОЙ КОЛОНКИ ===== */
+
+.right_block {
+  margin-bottom: 110px; /* расстояние между блоками */
+}
+
+.block_title {
+  font-family: Manrope, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px; /* заголовок → список */
+  color: #101828;
+}
+
+.block_list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px; /* расстояние между пунктами */
+  font-family: Manrope, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #101828;
+}
+
+.block_list li:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,36 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 120px;
+  background-color: #f2f4f7;
+}
+
+.header_list {
+  display: flex;
+  gap: 32px;
+}
+
+.header_list_item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+.header_list_item:hover {
+  color: #0b44cd;
+}
+
+.header_logo_span {
+  color: #3470ff;
+}
+
+.header_logo {
+  color: #101828;
+}
+
+.active {
+  color: #0b44cd;
+}

@@ -1,0 +1,59 @@
+.image_block {
+  max-width: 1440px;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: image-set(
+    url("/hero/hero.jpg") 1x,
+    url("/hero/hero@2x.jpg") 2x
+  );
+
+  display: flex;
+  justify-content: center; /* по горизонтали */
+  /* по ВЕРТИКАЛИ — вот это важно */
+  text-align: center;
+}
+
+.hero_wrapper {
+  display: flex;
+  padding-top: 436px;
+  flex-direction: column;
+}
+.main_title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.hero_text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.link_hero {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  background-color: #3470ff;
+  border-radius: 12px;
+  padding: 12px 88px;
+  max-width: 276px;
+  margin: 0 auto;
+  transition: color 0.3s ease;
+}
+
+.link_hero:hover {
+  background-color: #0b44cd;
+}
