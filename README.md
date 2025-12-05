@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Rental Car is a modern car rental web application built with Next.js 14 (App Router).
+The project includes three main pages:
 
-## Getting Started
+Home page
 
-First, run the development server:
+Car Catalog page
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Car Details page (dynamic route by ID)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application features routing via App Router, REST API integration, global state management with Zustand, and a fully validated booking form using Yup.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Features:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Next.js 14 App Router — modern file-based routing
 
-## Learn More
+Car Catalog — fetches cars from a backend REST API
 
-To learn more about Next.js, take a look at the following resources:
+Dynamic car details page (/catalog/[id])
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+REST API integration with Axios
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Global state management using Zustand
 
-## Deploy on Vercel
+Booking form with Yup validation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+react-hot-toast notifications
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Clean UI with CSS Modules + modern-normalize
+
+Fully typed with TypeScript
+
+Tech Stack:
+
+Next.js 14 (App Router)
+
+React
+
+TypeScript
+
+CSS Modules
+
+Axios
+
+Zustand
+
+Yup
+
+react-hot-toast
+
+modern-normalize
+
+API
+
+The car data is fetched from a backend REST API using Axios.
+Zustand is used to store filters, pagination state, and loaded cars.
+
+Form Validation
+
+The booking form uses:
+
+Yup for schema validation
+
+react-hot-toast for success notifications
+
+Custom form handling on the client side
+
+Author
+
+Developed by Valerie Maz
+Frontend Developer — React / TypeScript / Next.js
