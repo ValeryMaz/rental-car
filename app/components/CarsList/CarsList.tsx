@@ -78,7 +78,7 @@ export default function CarsList() {
 
               <div className={css.name_car_container}>
                 <p>
-                  {car.brand}{" "}
+                  {car.brand}
                   <span className={css.span_model}> {car.model}</span>,{" "}
                   {car.year}
                 </p>
@@ -86,15 +86,15 @@ export default function CarsList() {
               </div>
 
               <p className={`${css.carsList_text_top} ${css.carsList_text}`}>
-                {`${car.address.split(", ")[1]} | ${car.address
-                  .split(", ")
-                  .slice(2)
-                  .join(", ")} | ${car.rentalCompany}`}
+                <span>{car.address.split(", ")[1]}</span>
+                <span>{car.address.split(", ").slice(2).join(", ")}</span>
+                <span>{car.rentalCompany}</span>
               </p>
               <p className={`${css.carsList_text_bottom} ${css.carsList_text}`}>
-                {`${car.type} | ${car.mileage
-                  .toLocaleString("en-US")
-                  .replace(/,/g, " ")} km`}
+                <span>{car.type}</span>
+                <span>
+                  {car.mileage.toLocaleString("en-US").replace(/,/g, " ")} km
+                </span>
               </p>
               <Link className={css.readMore_btn} href={`/catalog/${car.id}`}>
                 Read more

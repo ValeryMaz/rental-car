@@ -96,4 +96,9 @@
   height: 44px;
   align-items: center;
   margin-top: 24px;
+  transition: background-color 0.3s ease;
+}
+
+.search_btn:hover {
+  background-color: #0b44cd;
 }

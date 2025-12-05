@@ -18,11 +18,19 @@ export const metadata: Metadata = {
   },
   description: "Find and rent the perfect car for your needs",
   keywords: ["car rental", "rent a car", "vehicle rental"],
-  authors: [{ name: "Your Name" }],
+  authors: [{ name: "Valeriia M" }],
+  icons: {
+    icon: "/favicon.svg",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: {
     title: "Car Rental Service",
     description: "Find and rent the perfect car",
     type: "website",
+    images: ["/og-image.jpg"],
   },
 };
 export default function RootLayout({

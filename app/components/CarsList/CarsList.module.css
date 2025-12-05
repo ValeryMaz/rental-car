@@ -69,6 +69,18 @@
   color: #8d929a;
 }
 
+.carsList_text span {
+  position: relative;
+  padding: 0 8px;
+}
+.carsList_text span:not(:first-child)::before {
+  content: "|";
+  position: absolute;
+  left: 0;
+  color: #8d929a;
+  font-weight: 400;
+}
+
 .carsList_text_top {
   margin-bottom: 4px;
 }
@@ -115,4 +127,8 @@
 
 .load_more:hover {
   border: 1px solid #0b44cd;
+}
+
+.span_model {
+  color: #3470ff;
 }

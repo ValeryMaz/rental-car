@@ -26,15 +26,16 @@ export default async function CarPage({ params }: Props) {
       </div>
 
       <div className={css.container_right}>
-        <p
-          className={css.car_title}
-        >{`${car.brand} ${car.model}, ${car.year}`}</p>
+        <p className={css.car_title}>
+          {car.brand} <span className={css.model_span}>{car.model}</span>,{" "}
+          {car.year}
+        </p>
 
         <p className={css.car_address}>
           <svg width="16" height="16">
             <use href="/sprite.svg#icon-Location"></use>
           </svg>
-          {`${city}, ${country} · Mileage ${car.mileage
+          {`${city}, ${country} \u2009 Mileage ${car.mileage
             .toLocaleString("en-US")
             .replace(/,/g, " ")} km`}
         </p>

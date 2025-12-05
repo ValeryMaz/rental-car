@@ -87,3 +87,7 @@
 .block_list li:last-child {
   margin-bottom: 0;
 }
+
+.model_span {
+  color: #3470ff;
+}
