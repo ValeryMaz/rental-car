@@ -73,6 +73,10 @@
   position: relative;
   padding: 0 8px;
 }
+.carsList_text span:first-child {
+  padding-left: 0;
+}
+
 .carsList_text span:not(:first-child)::before {
   content: "|";
   position: absolute;
